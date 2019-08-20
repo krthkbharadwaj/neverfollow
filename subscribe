@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Never Follow</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css?v=744601194e" media="screen" />
+
+    
+
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <link rel="canonical" href="subscribe" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+    <meta property="og:site_name" content="Never Follow " />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Never Follow" />
+    <meta property="og:url" content="http://localhost:2368/subscribe/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Never Follow" />
+    <meta name="twitter:url" content="http://localhost:2368/subscribe/" />
+    
+    <meta name="generator" content="Ghost 2.28" />
+    <link rel="alternate" type="application/rss+xml" title="Never Follow " href="rss/index.html" />
+
+    <script>
+      const ghostHost = "http://localhost:2368"
+    </script>
+
+    <script>
+      WebFontConfig = {
+        google: { families: ['Source+Sans+Pro:400,600,700'] }
+      };
+
+      (function (d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
+  </head>
+  <body class="">
+    
+
+<div class="l-wrapper" data-aos="fade-down">
+  <a href="index.html" class="m-back">
+    <span class="m-back__icon icon-arrow-left"></span>
+    <span>Back to home</span>
+  </a>
+</div>
+
+<main class="l-fullscreen">
+  <section class="l-fullscreen__content in-subscribe-page" data-aos="fade-up" data-aos-delay="300">
+      <div>
+        <header class="m-heading in-subscribe-page">
+          <h1 class="m-heading__title">Subscribe to Never Follow </h1>
+          <p class="m-heading__description in-subscribe-page">
+            Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox.
+          </p>
+        </header>
+        
+<form method="post" action="subscribe" id="subscribe-form" class="m-subscribe-section__form">
+  <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+  <fieldset>
+    <label for="subscribe_input" class="sr-only">Your email address</label>
+    <input class="m-input in-subscribe-section" type="email" name="email" autofocus="autofocus" placeholder="Your email address" id="subscribe_input" />
+  </fieldset>
+  <button id="subscribe_button" class="m-button primary block" type="submit">Subscribe</button>
+
+  
+<script>
+    (function(g,h,o,s,t){
+        var buster = function(b,m) {
+            h[o]('input.'+b).forEach(function (i) {
+                i.value=i.value || m;
+            });
+        };
+        buster('location', g.location.href);
+        buster('referrer', h.referrer);
+    })(window,document,'querySelectorAll','value');
+</script>
+
+
+</form>
+
+      </div>
+  </section>
+</main>
+
+
+    
+<div class="m-search js-search">
+  <button class="m-icon-button outlined as-close-search js-close-search" aria-label="Close search">
+    <span class="icon-close"></span>
+  </button>
+  <div class="m-search__content">
+    <form class="m-search__form">
+      <fieldset>
+        <span class="icon-search m-search-icon"></span>
+        <input type="text" class="m-input in-search js-input-search" placeholder="Type to search" aria-label="Type to search">
+      </fieldset>
+    </form>
+    <div class="js-search-results hide"></div>
+    <p class="m-no-found align-center hide js-no-results">No results for your search, try something different.</>
+  </div>
+</div>
+
+    
+<footer class="m-footer">
+  <div class="m-footer__content">
+    <p class="m-footer-copyright">
+      <span>Never Follow  &copy; 2019</span>
+      <span>&nbsp; &bull; &nbsp;</span>
+      <span>Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a></span>
+    </p>
+    <nav class="m-footer-social">
+    </nav>
+  </div>
+</footer>
+
+    <script defer src="assets/js/manifest.js?v=744601194e"></script>
+    <script defer src="assets/js/polyfill.js?v=744601194e"></script>
+    <script defer src="assets/js/vendor.js?v=744601194e"></script>
+    <script defer src="assets/js/app.js?v=744601194e"></script>
+
+    
+
+    
+  </body>
+</html>
